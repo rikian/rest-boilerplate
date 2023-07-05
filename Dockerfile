@@ -7,6 +7,6 @@ COPY . .
 RUN go mod tidy
 RUN go build -o ./rest-api .
 
-EXPOSE 909
+EXPOSE 9090
 
 CMD ["./rest-api"]
