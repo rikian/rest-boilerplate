@@ -1,0 +1,44 @@
+{"level":"info","ts":"2023-07-03T15:55:36.782+0700","caller":"app/run.go:85","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-03T15:55:49.522+0700","caller":"middleware/middleware.go:49","msg":"{\"idr\":\"49d2ce86-aa51-4f77-88ad-bcaaf9b4f8a6\",\"ip\":\"\",\"method\":\"GET\",\"path\":\"/api/v1/a\",\"type\":\"request\",\"ua\":\"PostmanRuntime/7.29.3\"}"}
+{"level":"error","ts":"2023-07-03T15:55:49.522+0700","caller":"middleware/middleware.go:72","msg":"token is malformed: could not base64 decode claim: illegal base64 data at input byte 52","stacktrace":"golang-test/src/middleware.(*AuthMiddleware).ServeHTTP\n\t/home/rikian/Downloads/test-aq/test-golang/src/middleware/middleware.go:72\nnet/http.serverHandler.ServeHTTP\n\t/usr/lib/go/src/net/http/server.go:2916\nnet/http.(*conn).serve\n\t/usr/lib/go/src/net/http/server.go:1966"}
+{"level":"info","ts":"2023-07-03T15:55:49.523+0700","caller":"r/response_impl.go:25","msg":"{\"ID\":\"49d2ce86-aa51-4f77-88ad-bcaaf9b4f8a6\",\"Path\":\"/api/v1/a\",\"Method\":\"GET\",\"Code\":401}"}
+{"level":"info","ts":"2023-07-03T16:02:51.679+0700","caller":"app/run.go:85","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-03T16:02:57.367+0700","caller":"middleware/middleware.go:50","msg":"{\"idr\":\"0ffe5bd6-f7a9-40c6-b878-1d0ef282e504\",\"ip\":\"\",\"method\":\"GET\",\"path\":\"/api/v1/a\",\"type\":\"request\",\"ua\":\"PostmanRuntime/7.29.3\"}"}
+{"level":"error","ts":"2023-07-03T16:02:57.367+0700","caller":"middleware/middleware.go:76","msg":"&{0ffe5bd6-f7a9-40c6-b878-1d0ef282e504 token is malformed: could not base64 decode claim: illegal base64 data at input byte 52}","stacktrace":"golang-test/src/middleware.(*AuthMiddleware).ServeHTTP\n\t/home/rikian/Downloads/test-aq/test-golang/src/middleware/middleware.go:76\nnet/http.serverHandler.ServeHTTP\n\t/usr/lib/go/src/net/http/server.go:2916\nnet/http.(*conn).serve\n\t/usr/lib/go/src/net/http/server.go:1966"}
+{"level":"info","ts":"2023-07-03T16:02:57.368+0700","caller":"r/response_impl.go:25","msg":"{\"ID\":\"0ffe5bd6-f7a9-40c6-b878-1d0ef282e504\",\"Path\":\"/api/v1/a\",\"Method\":\"GET\",\"Code\":401}"}
+{"level":"info","ts":"2023-07-03T16:32:44.241+0700","caller":"app/run.go:79","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-03T16:33:05.354+0700","caller":"app/run.go:79","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-03T16:34:17.030+0700","caller":"app/run.go:79","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-03T16:34:22.489+0700","caller":"app/run.go:90","msg":"Shutting down server gracefully..."}
+{"level":"info","ts":"2023-07-03T16:34:22.491+0700","caller":"app/run.go:103","msg":"Server gracefully stopped."}
+{"level":"info","ts":"2023-07-03T16:38:22.851+0700","caller":"app/run.go:83","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-03T21:53:28.233+0700","caller":"app/run.go:94","msg":"Shutting down server gracefully..."}
+{"level":"info","ts":"2023-07-03T21:53:28.236+0700","caller":"app/run.go:107","msg":"Server gracefully stopped."}
+{"level":"info","ts":"2023-07-03T22:25:14.928+0700","caller":"app/run.go:88","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-05T01:11:32.115+0700","caller":"app/run.go:59","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-05T01:34:47.913+0700","caller":"middleware/middleware.go:49","msg":"{\"idr\":\"aa1f0038-7540-449b-8d7a-474877789789\",\"ip\":\"\",\"method\":\"GET\",\"path\":\"/api/v1/a\",\"ua\":\"PostmanRuntime/7.29.3\"}"}
+{"level":"error","ts":"2023-07-05T01:34:47.914+0700","caller":"middleware/middleware.go:72","msg":"token is malformed: could not base64 decode claim: illegal base64 data at input byte 52","stacktrace":"golang-test/src/middleware.(*AuthMiddleware).ServeHTTP\n\t/home/rikian/Downloads/test-aq/test-golang/src/middleware/middleware.go:72\nnet/http.serverHandler.ServeHTTP\n\t/usr/lib/go/src/net/http/server.go:2916\nnet/http.(*conn).serve\n\t/usr/lib/go/src/net/http/server.go:1966"}
+{"level":"info","ts":"2023-07-05T01:34:47.914+0700","caller":"r/response_impl.go:26","msg":"{\"ID\":\"aa1f0038-7540-449b-8d7a-474877789789\",\"Path\":\"/api/v1/a\",\"Method\":\"GET\",\"Code\":401}"}
+{"level":"info","ts":"2023-07-05T01:34:56.020+0700","caller":"middleware/middleware.go:49","msg":"{\"idr\":\"52b978c3-2bfb-46a8-b145-547dd8b314a4\",\"ip\":\"\",\"method\":\"GET\",\"path\":\"/api/v1/a\",\"ua\":\"PostmanRuntime/7.29.3\"}"}
+{"level":"error","ts":"2023-07-05T01:34:56.020+0700","caller":"middleware/middleware.go:72","msg":"token is malformed: could not base64 decode claim: illegal base64 data at input byte 52","stacktrace":"golang-test/src/middleware.(*AuthMiddleware).ServeHTTP\n\t/home/rikian/Downloads/test-aq/test-golang/src/middleware/middleware.go:72\nnet/http.serverHandler.ServeHTTP\n\t/usr/lib/go/src/net/http/server.go:2916\nnet/http.(*conn).serve\n\t/usr/lib/go/src/net/http/server.go:1966"}
+{"level":"info","ts":"2023-07-05T01:34:56.020+0700","caller":"r/response_impl.go:26","msg":"{\"ID\":\"52b978c3-2bfb-46a8-b145-547dd8b314a4\",\"Path\":\"/api/v1/a\",\"Method\":\"GET\",\"Code\":401}"}
+{"level":"info","ts":"2023-07-05T01:47:09.822+0700","caller":"app/run.go:59","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-05T01:47:12.170+0700","caller":"app/run.go:69","msg":"Shutting down server gracefully..."}
+{"level":"info","ts":"2023-07-05T01:47:12.172+0700","caller":"app/run.go:82","msg":"Server gracefully stopped."}
+{"level":"info","ts":"2023-07-05T01:47:12.488+0700","caller":"app/run.go:59","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-05T01:47:16.232+0700","caller":"app/run.go:69","msg":"Shutting down server gracefully..."}
+{"level":"info","ts":"2023-07-05T01:47:16.234+0700","caller":"app/run.go:82","msg":"Server gracefully stopped."}
+{"level":"info","ts":"2023-07-05T01:47:16.556+0700","caller":"app/run.go:59","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-05T01:47:19.942+0700","caller":"app/run.go:69","msg":"Shutting down server gracefully..."}
+{"level":"info","ts":"2023-07-05T01:47:19.944+0700","caller":"app/run.go:82","msg":"Server gracefully stopped."}
+{"level":"info","ts":"2023-07-05T01:47:20.311+0700","caller":"app/run.go:59","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-05T01:47:21.073+0700","caller":"app/run.go:69","msg":"Shutting down server gracefully..."}
+{"level":"info","ts":"2023-07-05T01:47:21.075+0700","caller":"app/run.go:82","msg":"Server gracefully stopped."}
+{"level":"info","ts":"2023-07-05T01:47:21.383+0700","caller":"app/run.go:59","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-05T01:47:23.207+0700","caller":"app/run.go:69","msg":"Shutting down server gracefully..."}
+{"level":"info","ts":"2023-07-05T01:47:23.209+0700","caller":"app/run.go:82","msg":"Server gracefully stopped."}
+{"level":"info","ts":"2023-07-05T01:47:23.507+0700","caller":"app/run.go:59","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-05T01:47:55.104+0700","caller":"app/run.go:69","msg":"Shutting down server gracefully..."}
+{"level":"info","ts":"2023-07-05T01:47:55.106+0700","caller":"app/run.go:82","msg":"Server gracefully stopped."}
+{"level":"info","ts":"2023-07-05T01:47:55.417+0700","caller":"app/run.go:59","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-05T02:21:05.757+0700","caller":"app/run.go:59","msg":"Server running at 9090"}
