@@ -20,6 +20,6 @@ go run main.go
 2023/06/30 23:50:06 your jwt for auth : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoicmlraWFuZmFpc2FsIiwiZXhwIjoxNjkxNzQzODA2fQ.DM2MyWLl1P4tl09BNJxMm1x4Whge9Y4BYKkmoA6fJts
 2023/06/30 23:50:06 Server running at 9090
 ```
-### Postgres server listening on port 5432 -> database berhasil running dan connect
+### Success create connection to Postgres server at localhost://postgres:****:2345/your_db -> berhasil connect
 ### migration success -> migrasi database book dengan default 5 data, setiap restart akan migrasi, data yang tersimpan akan terganti default.
 ### your jwt for auth bearer -> pastikan masukkan kode ini di header untuk setiap request. Expired 1 tahun

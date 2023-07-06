@@ -42,3 +42,4 @@
 {"level":"info","ts":"2023-07-05T01:47:55.106+0700","caller":"app/run.go:82","msg":"Server gracefully stopped."}
 {"level":"info","ts":"2023-07-05T01:47:55.417+0700","caller":"app/run.go:59","msg":"Server running at 9090"}
 {"level":"info","ts":"2023-07-05T02:21:05.757+0700","caller":"app/run.go:59","msg":"Server running at 9090"}
+{"level":"info","ts":"2023-07-06T13:51:11.340+0700","caller":"app/run.go:60","msg":"Server running at 9090"}
