@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  web:
+    depends_on:
+      - database
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: go-rest
+    container_name: go-rest
+    ports:
+      - 9090:9090
+    networks:
+      - backend
+  database:
+    # image: postgres
+    container_name: postgres
+    ports:
+      - 2345:5432
+    networks:
+      - backend
+    volumes:
+      - /home/rikian/Documents/docker/postgres/postgres-volume:/var/lib/postgresql/data
+    # environment:
+      # - POSTGRES_PASSWORD=postgres
+networks:
+  backend:
+    name: n_postgres
+    driver: bridge

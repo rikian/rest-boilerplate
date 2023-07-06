@@ -8,11 +8,6 @@ import (
 	"go.uber.org/zap/zapcore"
 )
 
-// type ErrorFormat struct {
-// 	IdRequest string
-// 	Msg       string
-// }
-
 func BuildLogger() *zap.Logger {
 	config := zap.NewProductionConfig()
 	config.EncoderConfig = zapcore.EncoderConfig{

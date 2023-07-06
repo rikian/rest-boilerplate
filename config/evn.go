@@ -9,7 +9,7 @@ import (
 )
 
 // for more information, see --> https://github.com/joho/godotenv/issues/43#issuecomment-503183127
-const projectDirName = "test-golang"
+const projectDirName = "rest-api"
 
 func LoadEnvFile() {
 	projectName := regexp.MustCompile(`^(.*` + projectDirName + `)`)
